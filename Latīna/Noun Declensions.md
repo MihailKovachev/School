@@ -8,6 +8,7 @@
 	|Accūsātīvus|**-am**|**-ās**|
 	|Ablātīvus|**-ā**|**-īs**|
 	|Vocātīvus|**-a**|**-ae**|
+	|Locātīvus|**-ae**|**-īs**|
 	
 	Exceptions: The dative and ablative plural of "dea" and "fīlia" are "deābus" and "fīliābus" in order to differentiate them from "deus" and "fīlius".
 
@@ -20,6 +21,8 @@
 	|Datīvus|**-ō**|**-īs**|
 	|Accūsātīvus|**-um**|**-ōs** / **-a** (n.)|
 	|Ablātīvus|**-ō**|**-īs**|
+	|Vocātīvus|||
+	|Locātīvus|**-ī**|**-īs**|
 
 3. Third Declension
 	
@@ -30,6 +33,8 @@
 	|Datīvus|**-ī**|**-ibus**|
 	|Accūsātīvus|**-em** / **-** (n.)|**-ēs** / **-a** (n.)|
 	|Ablātīvus|**-e**|**-ībus**|
+	|Vocātīvus|||
+	|Locātīvus|**-ī**|**-ibus**|
 	
 	**a) i-stems**
 	- masculine and feminine nouns - the nominative ends in "-is" and the word is parisyllabic (equal number of syllables in the nominative and genitive singular); the words *imber*, *ūter*, *linter*, *venter*

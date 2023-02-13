@@ -1,7 +1,7 @@
 # Principal Parts
 1. First Principal Part - the 1st person singular present active indicative of the verb
 	
-	**a) the present stem** - obtained from the first principal part by removing the personal ending
+	**a) the present stem** - obtained from the first principal part by removing the personal ending (-ō)
 
 2. Second Principal Part - the infinitive of the verb
 	
@@ -13,17 +13,32 @@
 
 3. Third Principal Part - the 1st person singular perfect active indicative
 	
-	**a) the perfect stem** - obtained from the third principal part by removing the personal ending
+	**a) the perfect stem** - obtained from the third principal part by removing the personal ending (-ī)
 
+4. Fourth Principal Part - the accusative supine
 
+# Tense Systems
+1. The Present System - present, future and imperfect tense
+	**a) endings**
+	
+	||Singulāris|Plūrālis|
+	|-----|:---:|:------:|
+	|1.|**-ō** / **-m**|**-mus**|
+	|2.|**-s**|**-tis**|
+	|3.|**-t**|**-nt**|
+
+2. The Perfect System - perfect, pluperfect, and future perfect tense
+	
+	**a) endings**
+	
+	||Singulāris|Plūrālis|
+	|-----|:---:|:------:|
+	|1.|**-ī**|**-imus**|
+	|2.|**-istī**|**-istis**|
+	|3.|**-it**|**-ērunt**|
+	
 # Indicative
 ## Active
-
-||Singulāris|Plūrālis|
-|-----|:---:|:------:|
-|1.|**-ō** / **-m**|**-mus**|
-|2.|**-s**|**-tis**|
-|3.|**-t**|**-nt**|
 
 ### Present Active Indicative Tense
 1. First Conjugation
@@ -255,4 +270,41 @@ Infixes for 3rd and 4th conjugation verbs:
 5. Usage
 	- for actions in the future
 
+### Perfect Active Indicative Tense
+1. Conjugation - completely regular for all conjugations
+	
+	amō, amāre, amāvī
+	
+	||Singulāris|Plūrālis|
+	|-----|:---:|:------:|
+	|1.|amāv**ī**|amāv**imus**|
+	|2.|amāv**istī**|amāv**istis**|
+	|3.|amāv**it**|amāv**ērunt**|
+	
+	moneō, monēre, monuī
+	
+	||Singulāris|Plūrālis|
+	|-----|:---:|:------:|
+	|1.|monu**ī**|monu**imus**|
+	|2.|monu**istī**|monu**istis**|
+	|3.|monu**it**|monu**ērunt**|
+	
+	trahō, trahere, trāxī
+	
+	||Singulāris|Plūrālis|
+	|-----|:---:|:------:|
+	|1.|trāx**ī**|trāx**imus**|
+	|2.|trāx**istī**|trāx**istis**|
+	|3.|trāx**it**|trāx**ērunt**|
+	
+	audiō, audīre, audīvī
+	
+	||Singulāris|Plūrālis|
+	|-----|:---:|:------:|
+	|1.|audīv**ī**|audīv**imus**|
+	|2.|audīv**istī**|audīv**istis**|
+	|3.|audīv**it**|audīv**ērunt**|
+
+2. Usage
+	- completed past actions
 
