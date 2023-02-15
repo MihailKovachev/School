@@ -7,7 +7,7 @@
 	|Datīvus|**-ae**|**-īs**|
 	|Accūsātīvus|**-am**|**-ās**|
 	|Ablātīvus|**-ā**|**-īs**|
-	|Vocātīvus|**-a**|**-ae**|
+	|Vocātīvus|-|-|
 	|Locātīvus|**-ae**|**-īs**|
 	
 	Exceptions: The dative and ablative plural of "dea" and "fīlia" are "deābus" and "fīliābus" in order to differentiate them from "deus" and "fīlius".
@@ -21,7 +21,7 @@
 	|Datīvus|**-ō**|**-īs**|
 	|Accūsātīvus|**-um**|**-ōs** / **-a** (n.)|
 	|Ablātīvus|**-ō**|**-īs**|
-	|Vocātīvus|||
+	|Vocātīvus|**-e** / **-ī**|-|
 	|Locātīvus|**-ī**|**-īs**|
 
 3. Third Declension
@@ -33,7 +33,7 @@
 	|Datīvus|**-ī**|**-ibus**|
 	|Accūsātīvus|**-em** / **-** (n.)|**-ēs** / **-a** (n.)|
 	|Ablātīvus|**-e**|**-ībus**|
-	|Vocātīvus|||
+	|Vocātīvus|-|-|
 	|Locātīvus|**-ī**|**-ibus**|
 	
 	**a) i-stems**
@@ -75,5 +75,5 @@
 	|Datīvus|**-eī** / **-ēī** (after i)|**-ēbus**|
 	|Accūsātīvus|**-em**|**-ēs**|
 	|Ablātīvus|**-ē**|**-ēbus**|
-	|Vocātīvus|**-ēs**|**-ēs**|
+	|Vocātīvus|-|-|
 	|Locātīvus|**-ē**|**-ēbus**|

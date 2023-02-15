@@ -6,10 +6,10 @@
 2. Second Principal Part - the infinitive of the verb
 	
 	**a) conjugations** - groups of verbs conjugated in a similar manner
-	- First Conjugation: -āre
-	- Second Conjugation: -ēre
-	- Third Conjugation: -ere
-	- Fourth Conjugation: -īre
+	- First Conjugation: -āre / -āri
+	- Second Conjugation: -ēre / -ēri
+	- Third Conjugation: -ere / -ī
+	- Fourth Conjugation: -īre / -īrī
 
 3. Third Principal Part - the 1st person singular perfect active indicative
 	
@@ -19,6 +19,7 @@
 
 # Tense Systems
 1. The Present System - present, future and imperfect tense
+	
 	**a) endings**
 	
 	||Singulāris|Plūrālis|
@@ -36,7 +37,67 @@
 	|1.|**-ī**|**-imus**|
 	|2.|**-istī**|**-istis**|
 	|3.|**-it**|**-ērunt**|
+
+# Voices
+1. Active voice - the subject is the doer of the action
 	
+	**a) endings**
+	- present system tenses
+		
+		||Singulāris|Plūrālis|
+		|-----|:---:|:------:|
+		|1.|**-ō** / **-m**|**-mus**|
+		|2.|**-s**|**-tis**|
+		|3.|**-t**|**-nt**|
+		
+	- perfect system tenses
+		
+		||Singulāris|Plūrālis|
+		|-----|:---:|:------:|
+		|1.|**-ī**|**-imus**|
+		|2.|**-istī**|**-istis**|
+		|3.|**-it**|**-ērunt**|
+
+2. Passive voice - the subject is the one receiving the action
+	
+	**a) endings**
+	- present system tenses
+		
+		||Singulāris|Plūrālis|
+		|-----|:---:|:------:|
+		|1.|**-r**|**-mur**|
+		|2.|**-ris**|**-minī**|
+		|3.|**-tur**|**-ntur**|
+
+3. Middle voice - deponent verbs: verbs which have forms in the passive but have active meaning
+
+
+# Moods
+1. Indicative - used to show real actions
+
+2. Imperative - used for commands in the 2nd person 
+	
+	**a) formation**
+	- singular - drop the "re" from the infinitive of the verb
+	- plural - replace "re" with "te" in the infinitive of the verb; the short "-e-" for 3rd conjugation verbs transforma into an "-i-"
+	
+		|Coniugātiō|Singulāris|Plūrālis|
+		|:---:|:---:|:--:|
+		|-āre|-ā|-āte|
+		|-ēre|-ē|‐ēte|
+		|-ere|-e|-ite|
+		|-īre|-ī|-īte|
+		
+		Examples:
+		
+		|Coniugātiō|Singulāris|Plūrālis|
+		|:---:|:---:|:--:|
+		|amāre|amā|amāte|
+		|monēre|monē|monēte|
+		|trahere|trahe|trahite|
+		|audīre|audī|audīte|
+		
+3. Subjunctive
 # Indicative
 ## Active
 
@@ -271,7 +332,7 @@ Infixes for 3rd and 4th conjugation verbs:
 	- for actions in the future
 
 ### Perfect Active Indicative Tense
-1. Conjugation - completely regular for all conjugations
+1. Formation - completely regular for all conjugations
 	
 	amō, amāre, amāvī
 	
@@ -308,3 +369,31 @@ Infixes for 3rd and 4th conjugation verbs:
 2. Usage
 	- completed past actions
 
+# Pluperfect Active Indicative Tense
+1. Formation - the perfect stem + the imperfect of "esse"
+	
+	||Singulāris|Plūrālis|
+	|-----|:---:|:------:|
+	|1.|**-eram**|**-erāmus**|
+	|2.|**-erās**|**-erātis**|
+	|3.|**-erat**|**-erant**|
+	
+	Example: amō, amāre, amāvī
+	
+	||Singulāris|Plūrālis|
+	|-----|:---:|:------:|
+	|1.|amāv**eram**|amāv**erāmus**|
+	|2.|amāv**erās**|amāv**erātis**|
+	|3.|amāv**erat**|amāv**erant**|
+
+2. Usage
+	- for past actions completed before another past action
+
+# Future Perfect Active Indicative Tense
+1. Formation - the perfect stem + the future of "esse" (almost)
+	
+	||Singulāris|Plūrālis|
+	|-----|:---:|:------:|
+	|1.|**-erō**|**-erimus**|
+	|2.|**-eris**|**-eritis**|
+	|3.|**-erit**|**-erint**!|
