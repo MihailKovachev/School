@@ -1,3 +1,5 @@
+# Declensions
+
 1. First Declension
 	
 	||Singulāris|Plūrālis|
@@ -77,3 +79,6 @@
 	|Ablātīvus|**-ē**|**-ēbus**|
 	|Vocātīvus|-|-|
 	|Locātīvus|**-ē**|**-ēbus**|
+
+# Cases
+1. Nominative

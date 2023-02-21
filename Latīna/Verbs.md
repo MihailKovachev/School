@@ -1,7 +1,5 @@
 # Principal Parts
 1. First Principal Part - the 1st person singular present active indicative of the verb
-	
-	**a) the present stem** - obtained from the first principal part by removing the personal ending (-ō)
 
 2. Second Principal Part - the infinitive of the verb
 	
@@ -10,6 +8,8 @@
 	- Second Conjugation: -ēre / -ēri
 	- Third Conjugation: -ere / -ī
 	- Fourth Conjugation: -īre / -īrī
+	
+	**b) the present stem** - obtained by removing the "-re" from the active infinitive
 
 3. Third Principal Part - the 1st person singular perfect active indicative
 	
@@ -20,25 +20,45 @@
 # Tense Systems
 1. The Present System - present, future and imperfect tense
 	
-	**a) endings**
+	**a) present tense**
+	- used for actions happening now
 	
-	||Singulāris|Plūrālis|
-	|-----|:---:|:------:|
-	|1.|**-ō** / **-m**|**-mus**|
-	|2.|**-s**|**-tis**|
-	|3.|**-t**|**-nt**|
+	**b) imperfect tense**
+	- used for continuous actions in the past
+	- used for past actions which happened more than once
+	- infixes:
+		
+		||Singulāris|Plūrālis|
+		|---|:-----:|:------|
+		|1.|**-ba-**|**-bā-**|
+		|2.|**-bā-**|**-bā-**|
+		|3.|**-ba-**|**-ba-**|
+	
+	**c) future tense**
+	- used for actions which will happen in the future
+	- [ ] infixes:
+		- 1st and 2nd conjugation
+			
+			||Singulāris|Plūrālis|
+			|---|:-----:|:------|
+			|1.|**-bō**|**-bi-**|
+			|2.|**-bi-**|**-bi-**|
+			|3.|**-bi-**|**-bu-**|
+		- 3rd and 4th conjugation
+			
+			||Singulāris|Plūrālis|
+			|---|:-----:|:------|
+			|1.|**-a-**|**-ē-**|
+			|2.|**-ē-**|**-ē-**|
+			|3.|**-e**|**-e-**|
 
-2. The Perfect System - perfect, pluperfect, and future perfect tense
+1. The Perfect System - perfect, pluperfect, and future perfect tense
 	
-	**a) endings**
+	**a) perfect tense**
+	- used for actions which are completed by the present moment
 	
-	||Singulāris|Plūrālis|
-	|-----|:---:|:------:|
-	|1.|**-ī**|**-imus**|
-	|2.|**-istī**|**-istis**|
-	|3.|**-it**|**-ērunt**|
 
-# Voices
+# Voices (Vōcēs)
 1. Active voice - the subject is the doer of the action
 	
 	**a) endings**
@@ -74,6 +94,8 @@
 
 # Moods
 1. Indicative - used to show real actions
+	
+	**a) formation** - stem + vowel change + infix + ending
 
 2. Imperative - used for commands in the 2nd person 
 	
@@ -98,6 +120,7 @@
 		|audīre|audī|audīte|
 		
 3. Subjunctive
+	
 # Indicative
 ## Active
 
@@ -171,12 +194,6 @@
 
 ### Imperfect Active Indicative Tense
 Infixes:
-
-||Singulāris|Plūrālis|
-|---|:-----:|:------|
-|1.|**-ba-**|**-bā-**|
-|2.|**-bā-**|**-bā-**|
-|3.|**-ba-**|**-ba-**|
 
 1. First Conjugation
 	
