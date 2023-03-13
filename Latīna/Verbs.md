@@ -95,7 +95,7 @@
 # Moods
 1. Indicative - used to show real actions
 	
-	**a) formation** - stem + vowel change + infix + ending
+	**a) formation** - stem + infix + ending
 
 2. Imperative - used for commands in the 2nd person 
 	

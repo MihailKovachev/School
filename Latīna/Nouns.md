@@ -82,3 +82,19 @@
 
 # Cases
 1. Nominative
+
+2. Accusative - the direct object of the verb
+	
+	**a) endings**
+	
+	||1st|2nd|3rd|4th|5th|
+	|:-----:|:----:|:---:|:---:|:---:|:---:|
+	|Singulāris|**am**|**um**|**—**|**um** / **ūs**|**em**|
+	|Plūrālis|**ās**|**um** / **a**|**—**|**ūs** / **ua**|**ēs**|
+	
+	**b) usage**
+	- [ ] the direct object of transitive verbs:
+		- "Canis *virum* momordit."
+		- "*Tē* videō."
+		- "Puer *medicum* quaerit."
+	- [ ] 
