@@ -17,7 +17,7 @@ NotesDirectoryList = ["БЕЛ", "Математика", "Физика", "Хим�
 
 def SummariseDirectoryRecursively(Dir: str, OutputFile, Counter = 1):
     OutputFile.write("\t" * (Counter - 1) + "- [{}]({})\n".format(Dir[Dir.rfind("/") + 1:], NotesPath.joinpath(Dir).joinpath("index.md").relative_to(NotesPath).as_posix().replace(" ", "%20")))
-    SubDirs = [f.name for f in os.scandir(NotesPath.joinpath(Dir)) if f.is_dir()]
+    SubDirs = os_sorted([f.name for f in os.scandir(NotesPath.joinpath(Dir)) if f.is_dir()])
 
     for SubDir in SubDirs:
         if SubDir == "Resources":
