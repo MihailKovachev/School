@@ -15,7 +15,7 @@ before = ["katex"]
 
 [output.html]
 no-section-label = true
-default-theme = "coal"
+default-theme = "light"
 git-repository-url = "https://github.com/MihailKovachev/School"
 git-repository-icon = "fa-github"
 mathjax-support = true
