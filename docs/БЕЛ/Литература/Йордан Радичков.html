@@ -1,0 +1,324 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Йордан Радичков - School</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../../favicon.svg">
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+        <!-- MathJax -->
+        <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item affix "><a href="../../index.html">School</a></li><li class="chapter-item expanded "><a href="../../БЕЛ/index.html">БЕЛ</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../БЕЛ/Български език/index.html">Български език</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../БЕЛ/Български език/1. Есе.html">1. Есе</a></li><li class="chapter-item "><a href="../../БЕЛ/Български език/2. Интерпретативно съчинение.html">2. Интерпретативно съчинение</a></li><li class="chapter-item "><a href="../../БЕЛ/Български език/3. Пунктуация.html">3. Пунктуация</a></li></ol></li><li class="chapter-item expanded "><a href="../../БЕЛ/Литература/index.html">Литература</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../БЕЛ/Литература/Алеко Константинов.html">Алеко Константинов</a></li><li class="chapter-item "><a href="../../БЕЛ/Литература/Димитър Талев.html">Димитър Талев</a></li><li class="chapter-item "><a href="../../БЕЛ/Литература/Иван Вазов.html">Иван Вазов</a></li><li class="chapter-item expanded "><a href="../../БЕЛ/Литература/Йордан Радичков.html" class="active">Йордан Радичков</a></li><li class="chapter-item "><a href="../../БЕЛ/Литература/Никола Вапцаров.html">Никола Вапцаров</a></li><li class="chapter-item "><a href="../../БЕЛ/Литература/Станислав Стратиев.html">Станислав Стратиев</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../Математика/index.html">Математика</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../Математика/Анализ/index.html">Анализ</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../Математика/Анализ/1. Полиноми.html">1. Полиноми</a></li><li class="chapter-item "><a href="../../Математика/Анализ/2. Схема на Хорнер.html">2. Схема на Хорнер</a></li><li class="chapter-item "><a href="../../Математика/Анализ/3. Корени на някои полиноми.html">3. Корени на някои полиноми</a></li></ol></li><li class="chapter-item "><a href="../../Математика/Геометрия/index.html">Геометрия</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../Математика/Геометрия/Решаване на триъгълник/index.html">Решаване на триъгълник</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../Математика/Геометрия/Решаване на триъгълник/Ъглополовящи.html">Ъглополовящи</a></li></ol></li><li class="chapter-item "><a href="../../Математика/Геометрия/Решаване на четириъгълник/index.html">Решаване на четириъгълник</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../Математика/Геометрия/Решаване на четириъгълник/Решаване на трапец.html">Решаване на трапец</a></li><li class="chapter-item "><a href="../../Математика/Геометрия/Решаване на четириъгълник/Решаване на успоредник.html">Решаване на успоредник</a></li></ol></li><li class="chapter-item "><a href="../../Математика/Геометрия/Вектори.html">Вектори</a></li><li class="chapter-item "><a href="../../Математика/Геометрия/Окръжност.html">Окръжност</a></li><li class="chapter-item "><a href="../../Математика/Геометрия/Правилен многоъгълник.html">Правилен многоъгълник</a></li><li class="chapter-item "><a href="../../Математика/Геометрия/Пропорционални отсечки.html">Пропорционални отсечки</a></li><li class="chapter-item "><a href="../../Математика/Геометрия/Центроид.html">Центроид</a></li></ol></li><li class="chapter-item "><a href="../../Математика/2. Логаритъм.html">2. Логаритъм</a></li></ol></li><li class="chapter-item "><a href="../../Физика/index.html">Физика</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../Физика/0. Експериментална физика/index.html">0. Експериментална физика</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../Физика/0. Експериментална физика/1. Точност на измерването.html">1. Точност на измерването</a></li></ol></li><li class="chapter-item "><a href="../../Физика/1. Кинематика/index.html">1. Кинематика</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../Физика/1. Кинематика/1. Кинематика.html">1. Кинематика</a></li><li class="chapter-item "><a href="../../Физика/1. Кинематика/2. Местоположение, скорост и ускорение.html">2. Местоположение, скорост и ускорение</a></li><li class="chapter-item "><a href="../../Физика/1. Кинематика/3. Видове движение.html">3. Видове движение</a></li><li class="chapter-item "><a href="../../Физика/1. Кинематика/4. Тяло, хвърлено под ъгъл.html">4. Тяло, хвърлено под ъгъл</a></li><li class="chapter-item "><a href="../../Физика/1. Кинематика/5. Движение по окръжност.html">5. Движение по окръжност</a></li><li class="chapter-item "><a href="../../Физика/1. Кинематика/6. Движение по произволна крива.html">6. Движение по произволна крива</a></li></ol></li><li class="chapter-item "><a href="../../Физика/2. Динамика/index.html">2. Динамика</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../Физика/2. Динамика/1. Сила и взаимодействие.html">1. Сила и взаимодействие</a></li><li class="chapter-item "><a href="../../Физика/2. Динамика/2. Принципи на механиката.html">2. Принципи на механиката</a></li><li class="chapter-item "><a href="../../Физика/2. Динамика/3. Триене.html">3. Триене</a></li><li class="chapter-item "><a href="../../Физика/2. Динамика/4. Тела, свързани с нишка.html">4. Тела, свързани с нишка</a></li><li class="chapter-item "><a href="../../Физика/2. Динамика/5. Импулс.html">5. Импулс</a></li><li class="chapter-item "><a href="../../Физика/2. Динамика/6. Център на масите.html">6. Център на масите</a></li><li class="chapter-item "><a href="../../Физика/2. Динамика/7. Енергия.html">7. Енергия</a></li><li class="chapter-item "><a href="../../Физика/2. Динамика/8. Удари.html">8. Удари</a></li></ol></li><li class="chapter-item "><a href="../../Физика/3. Гравитация/index.html">3. Гравитация</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../Физика/3. Гравитация/1. Гравитационни сили.html">1. Гравитационни сили</a></li><li class="chapter-item "><a href="../../Физика/3. Гравитация/2. Орбитална механика.html">2. Орбитална механика</a></li></ol></li><li class="chapter-item "><a href="../../Физика/4. Въртене/index.html">4. Въртене</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../Физика/4. Въртене/1. Момент на импулса.html">1. Момент на импулса</a></li><li class="chapter-item "><a href="../../Физика/4. Въртене/2. Идеално твърдо тяло.html">2. Идеално твърдо тяло</a></li><li class="chapter-item "><a href="../../Физика/4. Въртене/3. Енергия на въртене.html">3. Енергия на въртене</a></li><li class="chapter-item "><a href="../../Физика/4. Въртене/Тъжната истина за въртенето.html">Тъжната истина за въртенето</a></li></ol></li><li class="chapter-item "><a href="../../Физика/5. Периодично движение/index.html">5. Периодично движение</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../Физика/5. Периодично движение/1. Периодично движение.html">1. Периодично движение</a></li><li class="chapter-item "><a href="../../Физика/5. Периодично движение/2. Хармонично трептене.html">2. Хармонично трептене</a></li><li class="chapter-item "><a href="../../Физика/5. Периодично движение/3. Математично махало.html">3. Математично махало</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../Химия/index.html">Химия</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../Химия/1. Стехиометрия/index.html">1. Стехиометрия</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../Химия/1. Стехиометрия/1. Измерване на величини.html">1. Измерване на величини</a></li><li class="chapter-item "><a href="../../Химия/1. Стехиометрия/2. Маса и количество вещество.html">2. Маса и количество вещество</a></li><li class="chapter-item "><a href="../../Химия/1. Стехиометрия/3. Химични формули.html">3. Химични формули</a></li><li class="chapter-item "><a href="../../Химия/1. Стехиометрия/4. Химични уравнения.html">4. Химични уравнения</a></li><li class="chapter-item "><a href="../../Химия/1. Стехиометрия/5. Газове.html">5. Газове</a></li><li class="chapter-item "><a href="../../Химия/1. Стехиометрия/6. Газови смеси.html">6. Газови смеси</a></li><li class="chapter-item "><a href="../../Химия/1. Стехиометрия/7. Разтвори.html">7. Разтвори</a></li></ol></li><li class="chapter-item "><a href="../../Химия/2. Строеж на атома/index.html">2. Строеж на атома</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../Химия/2. Строеж на атома/1. Ядрена химия.html">1. Ядрена химия</a></li><li class="chapter-item "><a href="../../Химия/2. Строеж на атома/2. Псевдоквантов модел на електронната обвивка.html">2. Псевдоквантов модел на електронната обвивка</a></li><li class="chapter-item "><a href="../../Химия/2. Строеж на атома/3. Квантов модел на атома.html">3. Квантов модел на атома</a></li><li class="chapter-item "><a href="../../Химия/2. Строеж на атома/4. Строеж на многоелектронни атоми.html">4. Строеж на многоелектронни атоми</a></li><li class="chapter-item "><a href="../../Химия/2. Строеж на атома/5. Атомни Характеристики.html">5. Атомни Характеристики</a></li><li class="chapter-item "><a href="../../Химия/2. Строеж на атома/6. Периодична таблица.html">6. Периодична таблица</a></li></ol></li><li class="chapter-item "><a href="../../Химия/3. Строеж на веществата/index.html">3. Строеж на веществата</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../Химия/3. Строеж на веществата/1. Йонни връзки.html">1. Йонни връзки</a></li><li class="chapter-item "><a href="../../Химия/3. Строеж на веществата/2. Ковалентни връзки.html">2. Ковалентни връзки</a></li><li class="chapter-item "><a href="../../Химия/3. Строеж на веществата/3. Люисови формули.html">3. Люисови формули</a></li><li class="chapter-item "><a href="../../Химия/3. Строеж на веществата/4. Геометрия на молекулите.html">4. Геометрия на молекулите</a></li><li class="chapter-item "><a href="../../Химия/3. Строеж на веществата/5. Метод на валентните връзки.html">5. Метод на валентните връзки</a></li><li class="chapter-item "><a href="../../Химия/3. Строеж на веществата/6. Хибридизация на атомни орбитали.html">6. Хибридизация на атомни орбитали</a></li><li class="chapter-item "><a href="../../Химия/3. Строеж на веществата/7. Молекулни орбитали.html">7. Молекулни орбитали</a></li><li class="chapter-item "><a href="../../Химия/3. Строеж на веществата/8. Междумолекулни взаимодействия.html">8. Междумолекулни взаимодействия</a></li></ol></li><li class="chapter-item "><a href="../../Химия/4. Термодинамика/index.html">4. Термодинамика</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../Химия/4. Термодинамика/0. Термодинамика.html">0. Термодинамика</a></li><li class="chapter-item "><a href="../../Химия/4. Термодинамика/1. Първи принцип на термодинамиката.html">1. Първи принцип на термодинамиката</a></li><li class="chapter-item "><a href="../../Химия/4. Термодинамика/2. Термохимия.html">2. Термохимия</a></li><li class="chapter-item "><a href="../../Химия/4. Термодинамика/3. Калориметрия.html">3. Калориметрия</a></li><li class="chapter-item "><a href="../../Химия/4. Термодинамика/4. Ентропия.html">4. Ентропия</a></li><li class="chapter-item "><a href="../../Химия/4. Термодинамика/5. Спонтанност на процесите.html">5. Спонтанност на процесите</a></li></ol></li><li class="chapter-item "><a href="../../Химия/5. Равновесие/index.html">5. Равновесие</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../Химия/5. Равновесие/1. Химично равновесие.html">1. Химично равновесие</a></li><li class="chapter-item "><a href="../../Химия/5. Равновесие/2. Посока на реакциите.html">2. Посока на реакциите</a></li><li class="chapter-item "><a href="../../Химия/5. Равновесие/3. Енергия на Гибс.html">3. Енергия на Гибс</a></li><li class="chapter-item "><a href="../../Химия/5. Равновесие/4. Фазово равновесие.html">4. Фазово равновесие</a></li></ol></li><li class="chapter-item "><a href="../../Химия/6. Разтвори/index.html">6. Разтвори</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../Химия/6. Разтвори/0. Практика.html">0. Практика</a></li><li class="chapter-item "><a href="../../Химия/6. Разтвори/1. Разтваряне.html">1. Разтваряне</a></li><li class="chapter-item "><a href="../../Химия/6. Разтвори/2. Общи свойства на разтворите.html">2. Общи свойства на разтворите</a></li><li class="chapter-item "><a href="../../Химия/6. Разтвори/3. Дисперсни системи.html">3. Дисперсни системи</a></li><li class="chapter-item "><a href="../../Химия/6. Разтвори/4. Сорбция.html">4. Сорбция</a></li><li class="chapter-item "><a href="../../Химия/6. Разтвори/5. Колоиди.html">5. Колоиди</a></li></ol></li><li class="chapter-item "><a href="../../Химия/7. Електролити/index.html">7. Електролити</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../Химия/7. Електролити/1. Електролити.html">1. Електролити</a></li><li class="chapter-item "><a href="../../Химия/7. Електролити/2. Киселини и основи.html">2. Киселини и основи</a></li></ol></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">School</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/MihailKovachev/School" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<h1 id="Йордан-Радичков"><a class="header" href="#Йордан-Радичков">Йордан Радичков</a></h1>
+<ol>
+<li>
+<p>Биография</p>
+<p><strong>а) раждане</strong> - през 1929 година в село Калиманица, Монтанско</p>
+<p><strong>б) образование</strong></p>
+<ul>
+<li>завършва гимназия в Берковица</li>
+</ul>
+<p><strong>в) кариера</strong></p>
+<ul>
+<li>редактор на вестници</li>
+<li>заместник-председател на Съюза на българските писатели</li>
+</ul>
+<p><strong>г) смърт</strong> - умира на 21. януари 2004г. в София</p>
+</li>
+<li>
+<p>Творчество </p>
+</li>
+</ol>
+<h1 id="Ноев-Ковчег"><a class="header" href="#Ноев-Ковчег">&quot;Ноев Ковчег&quot;</a></h1>
+<ol>
+<li>
+<p>Композиция</p>
+<p><strong>а) жанр</strong> - фрагментарен роман</p>
+<ul>
+<li>13 части, условно наречени &quot;глави&quot;</li>
+<li>липсва традиционен, класически сюжет с общи герои и събития</li>
+</ul>
+<p><strong>б) особености</strong></p>
+<ul>
+<li>композиционна рамка - изгражда се от встъпителната („Космическият удавник“) и заключителната част („Небето прокапа“)</li>
+<li>редуват се дълги и къси глави</li>
+<li>редуват се части с последователно разказване и такива с накъсано разказване („разказ в разказа“)</li>
+<li>редуват се разкази с автобиографични мотиви и разкази с митологична стилизация</li>
+</ul>
+</li>
+<li>
+<p>Теми, образи и мотиви</p>
+<p><strong>а) образът на Ноевия ковчег</strong> - символ на възможността да бъде пренесен споменът през времето и така да бъде съхранен този иначе „въшкав животец“ едновременно в „мизерията и във величествеността му“</p>
+<ul>
+<li>палубата - на нея тече обичайният живот, символизиран от океана</li>
+<li>трюмът - символ на човешкото съзнание, на паметта, съхраняващи близки и далечни спомени, парчета живот, но и парчета човешка мъдрост</li>
+</ul>
+<p><strong>б) образът на &quot;космическия удавник&quot;</strong> - придава на изображението тайнственост и загадъчност, граничещи с измеренията на кошмарно видение, на халюцинация</p>
+<ul>
+<li>сравнение с митологичния герой Икар - символ на неосъществената дръзка мечта, прекъснатия полет, трагичното крушение на надеждите и копнежите</li>
+</ul>
+<p><strong>в) темата за самотата, страданието и отхвърлеността</strong> - неизбежни и универсални доминанти в съществуването на всяко едно създание</p>
+<ul>
+<li>зададена чрез образите на прокуденото от своите „въшкарче“ („Въшкарчето“), мършавото куче със завързано дърво на шията („Сивият вълк, черното куче“), старият щъркел със счупено крило, прогонен от отлитащото на юг ято, а на следващата пролет - погубен от събратята си („Щърков сняг“)</li>
+</ul>
+<p><strong>г) темата за насилието и жестокостта</strong> - също неизбежни</p>
+<ul>
+<li>техен основен носител е човекът - у човека са заложени хищническият инстинкт, кръвожадността и примитивизма („Сивият вълк, черното куче“)</li>
+</ul>
+<p><strong>д) темата за &quot;трохите на живота&quot;</strong> - изразена чрез крехкото и неусточивото, което Ноевият ковчег има за цел да запази</p>
+</li>
+<li>
+<p>Герои</p>
+<p><strong>а) Космическият удавник</strong> - трагично въплъщение на безнадеждността и страданието</p>
+<ul>
+<li>чрез него се задава смисловата рамка на повествованието</li>
+<li>паралел с митологичния герой Икар, чието любопитство го води към слънцето</li>
+</ul>
+<p><strong>б) Бог и Дявол</strong> - Бог сътворява духовните неща, докато земният свят е дяволско творение</p>
+<ul>
+<li>възкресено е древно еретическо вярване</li>
+</ul>
+<p><strong>в) хлебарката</strong> - дяволско творение, превърнало се в символ на неизтребимия инстинкт за оцеляване</p>
+<ul>
+<li>хлебарките са изразители на разпънатостта между живота (често безсмислен) и смъртта (най-често също безсмислена)</li>
+</ul>
+<p><strong>г) въшкарчето, глиганът, щъркелът, лисицата, мишлетата</strong> - носят идеята за крехкостта на съществуването</p>
+<ul>
+<li>чрез тяхната съдба се онагледява идеята, че смъртта е единственото сигурно нещо на този свят</li>
+</ul>
+<p><strong>д) човекът</strong> - представен е като духовно и като природно същество</p>
+<ul>
+<li>човекът е много повече природа, тоест дяволско изчадие, отколкото дух - божествено творение</li>
+</ul>
+<p><strong>е) животът като мащеха и смъртта като благодетелка</strong></p>
+<p><strong>ж) разказвачът</strong></p>
+<ul>
+<li>око, което е способно да извади от анонимност и най-дребния детайл</li>
+<li>душа, преживяваща различните житейски драми като свои</li>
+<li>разум, осмислящ странните превращения на човешката съдба</li>
+<li>памет, съхраняваща и пренасяща през времето натрупаната мъдрост на човечеството</li>
+</ul>
+</li>
+</ol>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../БЕЛ/Литература/Иван Вазов.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../../БЕЛ/Литература/Никола Вапцаров.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../БЕЛ/Литература/Иван Вазов.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../../БЕЛ/Литература/Никола Вапцаров.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../../elasticlunr.min.js"></script>
+        <script src="../../mark.min.js"></script>
+        <script src="../../searcher.js"></script>
+
+        <script src="../../clipboard.min.js"></script>
+        <script src="../../highlight.js"></script>
+        <script src="../../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
